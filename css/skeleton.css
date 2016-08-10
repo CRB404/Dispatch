@@ -384,7 +384,8 @@ hr {
 /* Background */
 body {
   height: 60%;
-  background: linear-gradient(15deg, #41204F, #634877); /* Standard syntax */
+  background: linear-gradient(15deg, #F05656, #F05B53);
+  /*background: #F05B53;*/
 }
 
 /* Search Bar
@@ -416,19 +417,19 @@ body {
 }
 
 .container-4 input#search::-webkit-input-placeholder {
-   color: #979797;
+   color: #fff;
 }
 
 .container-4 input#search:-moz-placeholder {
-   color: #979797;
+   color: #fff;
 }
 
 .container-4 input#search::-moz-placeholder {
-   color: #979797;
+   color: #fff;
 }
 
 .container-4 input#search:-ms-input-placeholder {
-   color: #979797;
+   color: #fff;
 }
 
 .container-4 button.icon{
@@ -522,6 +523,13 @@ li {
     background: white;
     color: #979797;
   }
+
+/* Clearing
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+@font-face {
+    font-family: 'Circular'; /*a name to be used later*/
+    src: url('../fonts/ARCfont.ttf'); /*URL to font*/
+}
 
 /* Clearing
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
