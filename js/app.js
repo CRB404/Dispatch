@@ -1,4 +1,4 @@
-var adaNameRef = firebase.database().ref('query');
+var variable = firebase.database().ref('query');
 var lossVal = firebase.database().ref('loss');
 
 // Graph Array
@@ -53,7 +53,7 @@ lossVal.on('child_changed', function(data) {
 // _____________________________________________________________________________
 
 function writeUserData() {
-  adaNameRef.set({ val: document.getElementById("search").value })
+  variable.set({ val: document.getElementById("search").value })
     .then(function() {
       console.log('Synchronization succeeded');
     })
