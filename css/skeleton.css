@@ -127,7 +127,7 @@ body {
   line-height: 1.6;
   font-weight: 400;
   font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #fff; }
+  color: #000; }
 
 
 /* Typography
@@ -384,10 +384,13 @@ hr {
 /* Background */
 body {
   height: 60%;
-  background: linear-gradient(15deg, #F05656, #F05B53);
+  background: linear-gradient(15deg, #fff, #fff);
   /*background: #F05B53;*/
 }
 
+h4 {
+  color: #f05b53;
+}
 /* Search Bar
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .box{
@@ -409,7 +412,7 @@ body {
   border: none;
   font-size: 10pt;
   float: left;
-  color: #fff;
+  color: #000;
   padding-left: 1px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -417,19 +420,19 @@ body {
 }
 
 .container-4 input#search::-webkit-input-placeholder {
-   color: #fff;
+   color: #000;
 }
 
 .container-4 input#search:-moz-placeholder {
-   color: #fff;
+   color: #000;
 }
 
 .container-4 input#search::-moz-placeholder {
-   color: #fff;
+   color: #000;
 }
 
 .container-4 input#search:-ms-input-placeholder {
-   color: #fff;
+   color: #000;
 }
 
 .container-4 button.icon{
@@ -442,7 +445,7 @@ body {
   background: #BABABA;
   height: 45px;
   width: 80px;
-  color: #979797;
+  color: #000;
   opacity: 0;
   font-size: 14pt;
 
@@ -472,7 +475,7 @@ body {
   margin-top: 50%;
   width: 120%;
 	height: 50px;
-	background: #fff;
+	background: #000;
 	-moz-border-radius: 50px;
 	-webkit-border-radius: 50px;
 	border-radius: 50px;
@@ -501,7 +504,7 @@ li {
   background: transparent;
   height: 45px;
   width: 80px;
-  color: #979797;
+  color: #000;
   font-size: 14pt;
 
 
@@ -521,10 +524,10 @@ li {
 
   .nav:hover button.icon:hover{
     background: white;
-    color: #979797;
+    color: #000;
   }
 
-/* Clearing
+/* Circles
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 @font-face {
     font-family: 'Circular'; /*a name to be used later*/
