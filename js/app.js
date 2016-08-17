@@ -55,7 +55,16 @@ lossVal.on('child_changed', function(data) {
 });
 
 
-
+// function writeUp() {
+//   lossVal.set( + 1)
+//     .then(function() {
+//       console.log('Synchronization succeeded');
+//     })
+//     .catch(function(error) {
+//       console.log('Synchronization failed');
+//     });
+// }
+//
 
 
 // Search Function
